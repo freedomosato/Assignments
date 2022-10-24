@@ -1,65 +1,52 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>flex-box</title>
+    <link rel="stylesheet" href="index.css" />
+    <!--   @import
+  url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca:wght@400;700&display=swap'); -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=, initial-scale=1.0">
-  <title>Registration</title>
-  <link rel="stylesheet" href="index.css">
-</head>
-
-<body>
-  <button class="link"><a href="link.html" target="_blank">Click here for code-link please</a></button>
-  <fieldset>
-    <div>
-      <h1>Register</h1>
-    </div>
-    <form action="login.html">
-      <div class="name">
-        <input type="text" placeholder="First-name" required>
-
+  <body>
+    <button class="grid">
+      <a class="grid1" href="grid.html" target="_blank">Grid Layout Task</a>
+    </button>
+    <main>
+      <div class="sedan">
+        <img src="icon-sedans.svg" alt="sedan" />
+        <h2>SEDANS</h2>
+        <p>
+          Choose a sedan for affordability and excellent fuel economy. Ideal for
+          cruising or your next road trip.
+        </p>
+        <button class="first">learn more</button>
       </div>
-      <div>
-        <input type="text" placeholder="Surname" required>
+      <div class="suv">
+        <img src="icon-suvs.svg" alt="suv" />
+        <h2>SUVS</h2>
+        <p>
+          Take an SUV for its spacious interior, power and versatility. perfect
+          for your next family vacation and off roads advantures
+        </p>
+        <button class="second">learn more</button>
       </div>
-      <div>
-        <input type="number" placeholder="Phone Number" required>
+      <div class="luxury">
+        <img src="icon-luxury.svg" alt="luxury" />
+        <h2>LUXURY</h2>
+        <p>
+          Cruise in the best car brand without the bloated prices. Enjoy the
+          enhanced comfort of a luxury rental and arrive in style.
+        </p>
+        <button class="third">learn more</button>
       </div>
-      <div>
-        <label for="Gender">Gender:</label>
-        <select required>
-          <option value="">Select</option>
-          <option value="">Male</option>
-          <option value="">Female</option>
-          <option value="">Others</option><br>
-      </div>
-      <div>
-        <input type="date" name="Date" id="date" required>
-      </div>
-      <div>
-        <label for="favcolor">Favorite Color:</label>
-        <input type="color" id="favcolor" name="favcolor" value="#ff0000">
-      </div>
-      <div>
-        <input type="email" placeholder="email" name="" id="" required>
-      </div>
-      <div>
-        <input type="password" placeholder="passowrd" name="" id="" required>
-      </div>
-      <div>
-        <input type="reset" value=Reset>
-        <input type="checkbox" name="" id="">
-        <label for="remind me">remind me</label>
-      </div>
-      <button type="submit">Register</button>
-      </div>
-      <Div class="login">
-        If you have registred already please login <a href="login.html">here</a>
-      </Div>
-    </form>
-  </fieldset>
-</body>
-
+    </main>
+  </body>
 </html>
